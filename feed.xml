@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>spekie/blog</title>
+    <link>https://spekie.org/blog</link>
+    <description>Blog in spekie.org</description>
+    <item>
+        <title>PC Build</title>
+        <link>https://spekie.org/blog/blog1.html</link>
+        <description>A written post about my PC build.</description>
+    </item>
+</channel>
+</rss>
