@@ -15,6 +15,9 @@ a:hover {
 :visited {
     color: #88c;
 }
+::selection {
+    background-color: #3399ff;
+}
 .container {
     width: 50%;
     margin: 0 auto;
