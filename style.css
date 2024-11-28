@@ -27,7 +27,7 @@ a:hover {
 nav {
     width: 100%;
 }
-nav a {
+nav {
     position: relative;
     top: 10px;
 }
