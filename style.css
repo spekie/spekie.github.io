@@ -19,10 +19,10 @@ a:hover {
     background-color: #3399ff;
     color: #ffffff;
 }
-.container {
+main {
     width: 50%;
     margin: 0 auto;
 }
-.container p {
+main p {
     text-align: left;
 }
