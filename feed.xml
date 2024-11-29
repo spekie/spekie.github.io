@@ -7,13 +7,13 @@
     <item>
         <title>Memory Management</title>
         <link>https://spekie.org/blog/Memory_Management</link>
-	<description>These are my opinions on programming languages and their implementations of memory management.</description>
+        <description>These are my opinions on programming languages and their implementations of memory management.</description>
         <pubDate>Thu, 28 Nov 2024 20:00:00 -0500</pubDate>
     </item>
     <item>
         <title>PC Build</title>
         <link>https://spekie.org/blog/New_PC</link>
-	<description>This is my first piece of writing on the website, where I describe the various parts I chose for my personal computer.</description>
+        <description>This is my first piece of writing on the website, where I describe the various parts I chose for my personal computer.</description>
         <pubDate>Sun, 24 Nov 2024 12:00:00 -0500</pubDate>
     </item>
 </channel>
