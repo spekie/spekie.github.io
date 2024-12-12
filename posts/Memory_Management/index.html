@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>spekie/posts</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.png">
+		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+	</head>
+	<body>
+		<nav>
+			<a href="/">home</a> |
+			<a href="/posts">posts</a>
+		</nav>
+		<main>
+			<h2>Memory Management</h2>
+			<p>Many programming languages implement different ways of memory management, the most common one being garbage collection. However, this significantly decreases the performance of a language. For example, Python is a fairly performant language in general for most programs, but for other tasks or programs it may be extremely under performant.</p>
+			<p>The C family of programming languages offers manual memory management, which seems like a good idea. But, in reality, it makes a language a little more complicated because now you have to manually manage memory, which could leave some vulnerabilities in your code if you make a mistake. I personally enjoy this way of memory management, because it is fairly low level, and potentially reduces the size of the program, while possibly increasing the speed of compiling. However there is still that down side of being complex, and very low level, leaving room for mistakes since we all make them.</p>
+			<p>This brings us to Rust, which is a language that uses the concept of borrowing memory, which makes the language extremely hard or maybe not for some people. I personally think this is basically just garbage collection except faster, however Rust still compiles extremely slow most of the time, depending on your program size. The use of their own package manager known as Cargo for various programs, seems like a good and optimal way for installing various so called &#34;crates&#34; made by other users who publish their software to be installed by the Cargo package manager. I myself, do not really feel the need to learn Rust, I like to stay on C or C++ instead, but I do appreciate what the language is doing and hopefully it will continue being as good as it is, despite it being complex.</p>
+			<p>This was just a short read to describe memory management in programming languages and how I understand them. In reality, you should use a programming language based on what you are trying to achieve; they are tools. If you need manual memory management to interact with hardware at a deeper level, like kernel-level software, then you should use that; it all depends on what you are trying to achieve. Thank you for reading.</p>
+		</main>
+	</body>
+</html>
