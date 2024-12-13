@@ -4,9 +4,11 @@
 		<title>spekie/posts</title>
 		<link>https://spekie.org/posts/</link>
         <description>Posts at spekie.org</description>
+		<atom:link href="https://spekie.org/feed.xml" rel="self"/>
 		<item>
 			<title>Memory Management</title>
 			<link>https://spekie.org/posts/Memory_Management/</link>
+			<guid>https://spekie.org/posts/Memory_Management/</guid>
 			<description>My opinions on memory management in various programming languages.</description>
 			<pubDate>Thu, 12 Dec 2024 15:36:00 -0500</pubDate>
 		</item>
