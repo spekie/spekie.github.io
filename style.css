@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    width: 40%;
+    margin: 0 auto;
+}
+body p {
+    text-align: left;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+::selection {
+    background-color: #3399ff;
+    color: #ffffff;
+}
+nav {
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+@media (prefers-color-scheme: dark) {
+	.light-mode {
+		display: none;
+	}
+	.dark-mode {
+		display: unset;
+	}
+	body {
+		background-color: #111111;
+		color: #ffffff;
+	}
+	:link {
+		color: #87cefa;
+	}
+	:visited {
+		color: #88c;
+	}
+}
