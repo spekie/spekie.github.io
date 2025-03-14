@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  background-color: #111111;
+  color: #ffffff;
+  max-width: 50rem;
+  margin: auto;
+}
+a {
+  color: #ffffff;
+}

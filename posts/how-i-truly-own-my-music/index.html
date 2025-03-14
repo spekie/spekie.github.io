@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spekie.org/posts</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <nav>
+      <br>
+      <a href="/">home</a> |
+      <a href="/posts/">posts</a>
+    </nav>
+    <h1>How I Truly Own My Music</h1>
+    <p>Streaming services are not the best, only convenient. I myself as a musician do not prefer them over many things.That is why I maintain a whole library of music.</p>
+    <p>With my entire library being in the Free Lossless Audio Codec or FLAC format. FLAC is one of the few formats of audio that is free. By free I mean free as in freedom.</p>
+    <p>This format does not have patents like other formats. In addition it is also lossless, so no loss in quality.</p>
+    <p>This is better than streaming services, why?</p>
+    <p>You have your music locally, and in better quality. Spotify for example, never had lossless audio.</p>
+    <h2>How I Maintain This Music</h2>
+    <p>I have a set of criteria for all FLAC files. Usually all of them must be above 1000 kb/s of bitrate.</p>
+    <p>Renaming of files is all done through a Bash script because the sources I get them from have bad naming sometimes.</p>
+    <p>As for metadata, it can easily be edited with the metaflac tool. The metaflac tool is a blessing from the FLAC format.</p>
+    <p>Editing metadata is a pain in the ass for other formats when compared to the simple metaflac tool.</p>
+    <p>Below is an example of adding an album cover with metaflac.</p>
+    <code>metaflac --import-picture-from="cover.png" 01.flac</code>
+    <p>It is really that simple, you do not even have to use FFmpeg.</p>
+    <code>metaflac --remove --block-type=PICTURE 01.flac</code>
+    <p>Above shows how to remove the album cover metadata.</p>
+    <h2>Usage</h2>
+    <p>I play all of my audio files using the mpv media player, which is a fork of mplayer2, which is a fork of the original MPlayer.</p>
+    <p>As for my phone I also use mpv except I play audio from a server that has copies of all music which I also use as backup.</p>
+  </body>
+</html>
