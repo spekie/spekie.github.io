@@ -1,0 +1,18 @@
+baseurl: "https://spekie.dev/"
+languageCode: "en-us"
+title: "spekie"
+theme: "hugo-xmin"
+
+permalinks:
+  post: "/:slug/"
+
+menu:
+  main:
+    - name: Home
+      url: "/"
+      weight: 1
+    - name: Feed
+      url: "index.xml"
+
+params:
+  footer: "&copy; [spekie](https://github.com/spekie) {Year} | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
