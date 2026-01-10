@@ -4,7 +4,7 @@ title: "spekie"
 theme: "hugo-xmin"
 
 permalinks:
-  post: "/:slug/"
+  post: "/posts/:slug/"
 
 menu:
   main:
