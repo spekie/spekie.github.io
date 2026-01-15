@@ -1,5 +1,5 @@
 baseurl: "https://spekie.dev/"
-languageCode: "en-us"
+languageCode: "en"
 title: "spekie"
 theme: "hugo-xmin"
 
