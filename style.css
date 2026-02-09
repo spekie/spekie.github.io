@@ -1,0 +1,15 @@
+body {
+	color: white;
+	font-family: sans-serif;
+	max-width: 50rem;
+	margin: auto;
+	background-color: #111;
+}
+pre {
+	border: 1px solid #555;
+	padding: 1em;
+	overflow-x: auto;
+}
+code { background: #1e1e24; }
+:link { color: #87CEFA; }
+:visited { color: #88c; }
