@@ -1,0 +1,19 @@
+baseURL = 'https://spekie.dev/'
+locale = 'en-us'
+title = 'spekie.dev'
+theme = 'hugo-kiss'
+
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Contact'
+  url = '/contact/'
+  weight = 2
+
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 3

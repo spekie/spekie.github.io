@@ -1,0 +1,3 @@
+[submodule "themes/hugo-kiss"]
+	path = themes/hugo-kiss
+	url = https://github.com/spekie/hugo-kiss.git
