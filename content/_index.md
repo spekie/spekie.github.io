@@ -6,6 +6,8 @@ title: 'Home'
 
 My name is German, but I am mostly known as Spekie on the internet.
 
-My primary interests are in computer architecture, and system administration.
+I am from Saint Petersburg, Russia. I am currently a university student.
+
+My primary interests are in computer programming and security research.
 
 My programming projects can be found on [GitHub](https://github.com/spekie).
